@@ -72,6 +72,14 @@ class NetworkFactory
     {
         return new Networks\Dogecoin();
     }
+    
+    /**
+     * @return Networks\Gamecredits
+     */
+    public static function gamecredits(): NetworkInterface
+    {
+        return new Networks\Gamecredits();
+    }
 
     /**
      * @return Networks\DogecoinTestnet
