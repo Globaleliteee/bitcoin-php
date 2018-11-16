@@ -11,7 +11,7 @@ class Gamecredits extends Network
     protected $base58PrefixMap = [
         self::BASE58_ADDRESS_P2PKH => "38",
         self::BASE58_ADDRESS_P2SH => "62",
-        self::BASE58_WIF => "1a",
+        self::BASE58_WIF => "a6",
     ];
     /**
      * {@inheritdoc}
@@ -25,8 +25,8 @@ class Gamecredits extends Network
      * @see Network::$bip32PrefixMap
      */
     protected $bip32PrefixMap = [
-        self::BIP32_PREFIX_XPUB => "019da462",
-        self::BIP32_PREFIX_XPRV => "019d9cfe",
+        self::BIP32_PREFIX_XPUB => "0488b21e",
+        self::BIP32_PREFIX_XPRV => "0488ade4",
     ];
     /**
      * {@inheritdoc}
